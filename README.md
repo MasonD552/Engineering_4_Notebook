@@ -52,8 +52,9 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 &nbsp;
 
 ## Media Test
+![jose-ramirez-tim-anderson (1)](https://github.com/MasonD552/Engineering_4_Notebook/assets/91158978/29514dcb-cae1-4deb-9098-1e1ab6eeb6e6)
+![r83740_1296x729_16-9](https://github.com/MasonD552/Engineering_4_Notebook/assets/91158978/8836e91f-f469-4e3b-825d-b669443996a0)
 
-Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
 
 ### Test Link
 
