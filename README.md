@@ -52,8 +52,8 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 &nbsp;
 
 ## Media Test
-![jose-ramirez-tim-anderson (1)](https://github.com/MasonD552/Engineering_4_Notebook/assets/91158978/29514dcb-cae1-4deb-9098-1e1ab6eeb6e6)
-![r83740_1296x729_16-9](https://github.com/MasonD552/Engineering_4_Notebook/assets/91158978/8836e91f-f469-4e3b-825d-b669443996a0)
+![jose-ramirez-tim-anderson (1)](jose-ramirez-tim-anderson.gif)
+![r83740_1296x729_16-9](r83740_1296x729_16-9.jpg)
 
 
 ### Test Link
