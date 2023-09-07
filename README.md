@@ -5,7 +5,7 @@
 
 ## Table of Contents
 * [Circuit Python](Circuit_Python)
-** [LED_Blink](#LED_Blink)
+*   [LED_Blink](#LED_Blink)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
