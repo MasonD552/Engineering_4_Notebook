@@ -1,5 +1,6 @@
 # Engineering_4_Notebook
 
+![jose-ramirez-tim-anderson (1)](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/jose-ramirez-tim-anderson.gif)
 &nbsp;
 
 ## Table of Contents
@@ -51,14 +52,4 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 &nbsp;
 
-## Media Test
 
-
-
-
-### Test Link
-[Worst Fights Baseball History](https://bleacherreport.com/articles/1644916-the-10-most-vicious-brawls-in-major-league-baseball-history)
-### Test Image
-![r83740_1296x729_16-9](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/r83740_1296x729_16-9.jpg)
-### Test GIF
-![jose-ramirez-tim-anderson (1)](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/jose-ramirez-tim-anderson.gif)
