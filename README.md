@@ -16,7 +16,7 @@ Getting the board led to blinking on and off every second.
 
 ### Evidence 
 
-Pictures / GIFs of your work should go here. You need to communicate what your thing does. 
+[LED_Blinkgif](images/ezgif-1-4ff8ace096.gif)
 
 ### Wiring
 
