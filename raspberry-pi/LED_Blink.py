@@ -2,10 +2,9 @@
 import board
 import time
 import digitalio
-led=digitalio.DigitalInOut(board.LED)
+led=digitalio.DigitalInOut(board.LED) #Define LED on Board
 led.direction=digitalio.Direction.OUTPUT
 
-# Function to toggle the LED state
 
 
 # Main loop for blinking the LED indefinitely
