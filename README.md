@@ -4,10 +4,12 @@
 &nbsp;
 
 ## Table of Contents
-* [LED_Blink](#LED_Blink)
+* [Circuit Python](Circuit_Python)
+** [LED_Blink](#LED_Blink)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
+# Circuit Python
 
 ## LED_Blink
 
