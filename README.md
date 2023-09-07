@@ -16,7 +16,7 @@ Getting the board led to blinking on and off every second.
 
 ### Evidence 
 
-[Led_Gif](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/ezgif-1-4ff8ace096.gif)
+![ezgif-1-4ff8ace096](https://github.com/MasonD552/Engineering_4_Notebook/assets/91158978/dd274ec4-a577-4c9a-b4ca-1d311f63547d)
 
 
 ### Wiring
