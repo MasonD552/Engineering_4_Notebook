@@ -1,12 +1,15 @@
 # Engineering_4_Notebook
 
+![jose-ramirez-tim-anderson (1)](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/jose-ramirez-tim-anderson.gif)
 &nbsp;
 
 ## Table of Contents
+* [Circuit Python](Circuit_Python)
 * [LED_Blink](#LED_Blink)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
+# Circuit Python
 
 ## LED_Blink
 
@@ -24,12 +27,11 @@ Getting the board led to blinking on and off every second.
 No Wiring
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
 
+[Code for LED Blink](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/LED_Blink.py)
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
-
+The LED code wasn't particularly challenging; it mostly involved reviewing concepts from the previous year. The only tricky part was the process of uploading it to the board, which differed slightly as I had to manually drag the code into the "code.py" file instead of simply pressing the F5 key.
 &nbsp;
 
 ## Onshape_Assignment_Template
@@ -52,14 +54,4 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 &nbsp;
 
-## Media Test
 
-
-
-
-### Test Link
-[Worst Fights Baseball History](https://bleacherreport.com/articles/1644916-the-10-most-vicious-brawls-in-major-league-baseball-history)
-### Test Image
-![r83740_1296x729_16-9](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/r83740_1296x729_16-9.jpg)
-### Test GIF
-![jose-ramirez-tim-anderson (1)](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/jose-ramirez-tim-anderson.gif)
