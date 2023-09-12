@@ -60,6 +60,26 @@ A for loop in Python is like a friendly robot that helps you do repetitive tasks
 The robot starts at 10 because you said so and then counts down one by one, all the way to 1. While it does this, you can make it do things, like pausing for a second with time.sleep(1) and printing the current number. And when it reaches 1, you can make it do something special, like shouting "Liftoff!"
 
 &nbsp;
+## LaunchPad_Part_2
+
+### Assignment Description
+
+
+
+### Evidence 
+
+
+### Wiring
+
+
+### Code
+
+
+### Reflection
+
+
+
+&nbsp;
 ## Onshape_Assignment_Template
 
 ### Assignment Description
