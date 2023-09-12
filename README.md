@@ -6,6 +6,7 @@
 ## Table of Contents
 * [Circuit Python](Circuit_Python)
 * [LED_Blink](#LED_Blink)
+* [LaunchPad_Part 1](#LaunchPad_Part_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -32,8 +33,33 @@ No Wiring
 ### Reflection
 
 The LED code wasn't particularly challenging; it mostly involved reviewing concepts from the previous year. The only tricky part was the process of uploading it to the board, which differed slightly as I had to manually drag the code into the "code.py" file instead of simply pressing the F5 key.
+
 &nbsp;
 
+
+## LaunchPad_Part_1
+
+### Assignment Description
+
+Make a count down go from 10 -> 1 and then after one(0) say LIFTOFF. Example: 10 9 8 7 6 5 4 3 2 1 Liftoff
+
+### Evidence 
+![Countdown](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/ezgif.com-video-to-gif.gif)
+
+### Wiring
+
+No Wiring
+
+### Code
+
+[Code for LaunchPad Countdown](https://github.com/MasonD552/Engineering_4_Notebook/blob/0d7bec4f410bc323a3a9192ba7742061eb506b4a/raspberry-pi/LaunchPadPt1_Countdown.py)
+### Reflection
+
+A for loop in Python is like a friendly robot that helps you do repetitive tasks without going crazy. When you see for x in range(10, 0, -1):, it's like telling the robot, "Hey, I want to count from 10 down to 1, and I want you to do something in between each number."
+
+The robot starts at 10 because you said so and then counts down one by one, all the way to 1. While it does this, you can make it do things, like pausing for a second with time.sleep(1) and printing the current number. And when it reaches 1, you can make it do something special, like shouting "Liftoff!"
+
+&nbsp;
 ## Onshape_Assignment_Template
 
 ### Assignment Description
