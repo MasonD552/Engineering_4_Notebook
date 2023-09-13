@@ -64,19 +64,21 @@ The robot starts at 10 because you said so and then counts down one by one, all 
 ## LaunchPad_Part_2
 
 ### Assignment Description
-It initializes two LEDs, one red (ledr) and one blue (ledb), and uses them to perform a countdown. The countdown starts from 10 and decrements by 1 every half second until it reaches 1, at which point it prints "Liftoff" and turns on the blue LED for 2 seconds.
+It indicates two LEDs, one red (ledr) and one blue (ledb), and uses them to perform a countdown. The countdown starts from 10 and decrements by 1 every half second until it reaches 1, at which point it prints "Liftoff" and turns on the blue LED for 2 seconds.
 
 ### Evidence 
 
 ![LEDCOUNTDOWN](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/ezgif.com-video-to-gif%20(1).gif)
 ### Wiring
 <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/image_67140865.JPG"  width="50%" height="20%">
+
 ### Code
 
+[LED Countdown Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/LaunchPadPt2_LEDS.py)
 
 ### Reflection
 
-
+The LED launch pad countdown is pretty straightforward. I knew that all I had to do was tell the board I had two leds and where they were plugged in. Then I had to wire the leds correctly. I had a little trouble with one of my leds. I accidentally plugged the longer leg in the - and the shorter leg in the positive but I then realized and switched them. I also noticed that Jinho's code was being finicky so I tried helping him. We soon realized he didn't save his code to the board.
 
 &nbsp;
 ## Onshape_Assignment_Template
