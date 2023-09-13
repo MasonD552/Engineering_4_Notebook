@@ -68,9 +68,9 @@ It initializes two LEDs, one red (ledr) and one blue (ledb), and uses them to pe
 
 ### Evidence 
 
-
+![LEDCOUNTDOWN](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/ezgif.com-video-to-gif%20(1).gif)
 ### Wiring
-
+![LEDWIRING](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/image_67140865.JPG)
 
 ### Code
 
