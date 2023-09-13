@@ -7,6 +7,7 @@
 * [Circuit Python](Circuit_Python)
 * [LED_Blink](#LED_Blink)
 * [LaunchPad_Part 1](#LaunchPad_Part_1)
+* [LaunchPad_Part 2](#LaunchPad_Part_2)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
