@@ -43,7 +43,7 @@ while True:
         time.sleep(1)
         ledr.value = False
 
-    if countdown_active:
+    if countdown_active and x <= 1:
         print("Liftoff")  # Print "Liftoff" when the countdown reaches 0
         ledb.value = True
         time.sleep(2)
