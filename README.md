@@ -64,8 +64,7 @@ The robot starts at 10 because you said so and then counts down one by one, all 
 ## LaunchPad_Part_2
 
 ### Assignment Description
-
-
+It initializes two LEDs, one red (ledr) and one blue (ledb), and uses them to perform a countdown. The countdown starts from 10 and decrements by 1 every half second until it reaches 1, at which point it prints "Liftoff" and turns on the blue LED for 2 seconds.
 
 ### Evidence 
 
