@@ -11,9 +11,6 @@
 
 &nbsp;
 # Circuit Python
-![PicoPinMap](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Pico-R3-A4-Pinout.pdf)
-
-
 
 
 ## LED_Blink
