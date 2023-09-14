@@ -26,6 +26,7 @@ button_pressed_during_countdown = False
 
 while True:
     while not countdown_active and not button.value:
+        time.sleep(0.01)
         pass
 
     if not countdown_active:
