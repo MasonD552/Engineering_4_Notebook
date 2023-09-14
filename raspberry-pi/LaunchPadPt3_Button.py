@@ -22,28 +22,30 @@ button.pull = digitalio.Pull.DOWN  # Use a pull-down resistor
 print("Press the button to start the countdown.")  # Print a message
 
 countdown_active = False
+button_pressed_during_countdown = False
 
 while True:
     while not countdown_active and not button.value:
         pass
-    
+
     if not countdown_active:
         print("Countdown")  # Print "Countdown" after the button is pressed
         countdown_active = True
+        button_pressed_during_countdown = False  # Reset the button press flag
 
-    for x in range(10, -1, -1):
+    for x in range(10, 0, -1):
         if button.value:
-            print("ABORT")  # Print "ABORT" if the button is pressed during the countdown
-            countdown_active = False
-            ledr.value = False  # Turn off the red LED
+            button_pressed_during_countdown = True  # Set the flag if the button is pressed during the countdown
+            time.sleep(0.25)
             break
 
         print(x)
         ledr.value = True
-        time.sleep(1)
+        time.sleep(0.5)
         ledr.value = False
+        time.sleep(0.5)
 
-    if countdown_active and x <= 1:
+    if countdown_active and not button_pressed_during_countdown and x <= 1:
         print("Liftoff")  # Print "Liftoff" when the countdown reaches 0
         ledb.value = True
         time.sleep(2)
