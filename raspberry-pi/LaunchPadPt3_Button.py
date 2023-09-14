@@ -23,21 +23,28 @@ print("Press the button to start the countdown.")  # Print a message
 
 countdown_active = False
 button_pressed_during_countdown = False
+button_press_count = 0  # Track the number of button presses
 
 while True:
-    while not countdown_active and not button.value:
+    while not countdown_active and button_press_count == 0 and not button.value:
         time.sleep(0.01)
         pass
 
-    if not countdown_active:
-        print("Countdown")  # Print "Countdown" after the button is pressed
+    if button.value:
+        button_press_count += 1
+
+    if button_press_count % 2 == 1 and not countdown_active:
+        print("Countdown")  # Print "Countdown" after the second button press
         countdown_active = True
         button_pressed_during_countdown = False  # Reset the button press flag
-
+        time.sleep(1)
+        
     for x in range(10, 0, -1):
         if button.value:
+            print("Abort")  # Print "Abort" after button is pressed during countdown
+            countdown_active = False  # Reset countdown when "Abort" is detected
             button_pressed_during_countdown = True  # Set the flag if the button is pressed during the countdown
-            time.sleep(0.25)
+            time.sleep(1)
             break
 
         print(x)
@@ -46,9 +53,19 @@ while True:
         ledr.value = False
         time.sleep(0.5)
 
-    if countdown_active and not button_pressed_during_countdown and x <= 1:
-        print("Liftoff")  # Print "Liftoff" when the countdown reaches 0
-        ledb.value = True
-        time.sleep(2)
-        ledb.value = False
-        countdown_active = False
+        if countdown_active and not button_pressed_during_countdown and x <= 1:
+            print("Liftoff")  # Print "Liftoff" when the countdown reaches 0
+            ledb.value = True
+            time.sleep(2)
+            ledb.value = False
+            countdown_active = False
+            break
+
+    if button_pressed_during_countdown:
+        countdown_active = False  # Reset countdown if "Abort" was printed and the button was pressed
+        button_press_count = 0  # Reset button press count
+
+    # After liftoff or abort, reset to initial state
+    if not countdown_active and (button_press_count % 2 == 1 or button_pressed_during_countdown):
+        print("Press the button to start the countdown.")
+        button_press_count = 0
