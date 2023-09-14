@@ -8,6 +8,8 @@
 * [LED_Blink](#LED_Blink)
 * [LaunchPad_Part 1](#LaunchPad_Part_1)
 * [LaunchPad_Part 2](#LaunchPad_Part_2)
+* [LaunchPad_Part 3](#LaunchPad_Part_3)
+* [LaunchPad_Part 4](#LaunchPad_Part_4)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
