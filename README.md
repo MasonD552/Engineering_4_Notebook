@@ -82,6 +82,51 @@ It indicates two LEDs, one red (ledr) and one blue (ledb), and uses them to perf
 The LED launch pad countdown is pretty straightforward. I knew that all I had to do was tell the board I had two leds and where they were plugged in. Then I had to wire the leds correctly. I had a little trouble with one of my leds. I accidentally plugged the longer leg in the - and the shorter leg in the positive but I then realized and switched them. I also noticed that Jinho's code was being finicky so I tried helping him. We soon realized he didn't save his code to the board.
 
 &nbsp;
+
+## LaunchPad_Part_3
+
+### Assignment Description
+
+The countdown starts from 10 and decrements by 1 every second until it reaches 0 (liftoff). It prints the countdown to the serial monitor, blinks a red LED each second, and turns on a green/blue LED to signify liftoff. If the button is pressed during the countdown process, it aborts, and another button press starts the countdown again.
+
+### Evidence 
+
+![ButtonCOUNTDOWN]()
+
+### Wiring
+
+
+### Code
+
+[Button Countdown Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/LaunchPadPt3_Button.py)
+
+### Reflection
+
+
+
+&nbsp;
+## LaunchPad_Part_4
+
+### Assignment Description
+
+The countdown starts from 10 and decreases by 1 every second until it reaches 0 (liftoff). It prints the countdown to the serial monitor, blinks a red LED each second, and turns on a green LED to signify liftoff. A servo motor slowly retracts the launch tower starting at 3 seconds until it reaches 180 degrees at takeoff. If the button is pressed during the countdown process, it aborts, and another button press starts the countdown again.
+
+### Evidence 
+
+![ServoCOUNTDOWN]()
+
+### Wiring
+
+
+### Code
+
+[Servo Countdown Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/LaunchPadPt4_Servo.py)
+
+### Reflection
+
+
+
+&nbsp;
 ## Onshape_Assignment_Template
 
 ### Assignment Description
