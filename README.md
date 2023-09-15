@@ -89,21 +89,22 @@ The LED launch pad countdown is pretty straightforward. I knew that all I had to
 
 ### Assignment Description
 
-The countdown starts from 10 and decrements by 1 every second until it reaches 0 (liftoff). It prints the countdown to the serial monitor, blinks a red LED each second, and turns on a green/blue LED to signify liftoff. If the button is pressed during the countdown process, it aborts, and another button press starts the countdown again.
+The countdown starts from 10 and decreases by 1 every second until it reaches 0 (liftoff). It prints the countdown to the serial monitor, blinks a red LED each second, and turns on a green/blue LED to signify liftoff. If the button is pressed during the countdown process, it aborts, and another button press starts the countdown again.
 
 ### Evidence 
 
-![ButtonCOUNTDOWN]()
+![ButtonCOUNTDOWN](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/ButtonCountdown.gif)
 
 ### Wiring
 
+![ButtonCountdownWiring](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Countdownbuttonwiring.JPG)
 
 ### Code
 
 [Button Countdown Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/LaunchPadPt3_Button.py)
 
 ### Reflection
-
+For this assignment, I was able to do the 🔥 SPICY VERSION 🔥 by when the button is pressed it ✋ aborts and then 🔄 resets the code back up to the top and waits for the button to be pressed again. I had trouble figuring out how to get the code to not abort and start the countdown at the same time. I solved this by using different states. I also had 🤔 the issue of not knowing how to get the code to reset to the top so I basically put an if statement at the bottom so that if liftoff or abort happened it would reset the code. 🚀🔁💡
 
 
 &nbsp;
