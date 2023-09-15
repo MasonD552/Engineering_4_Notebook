@@ -97,7 +97,7 @@ The countdown starts from 10 and decreases by 1 every second until it reaches 0 
 
 ### Wiring
 
-![ButtonCountdownWiring](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Countdownbuttonwiring.JPG)
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Countdownbuttonwiring.JPG"  width="50%" height="20%">
 
 ### Code
 
