@@ -104,7 +104,7 @@ The countdown starts from 10 and decreases by 1 every second until it reaches 0 
 [Button Countdown Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/LaunchPadPt3_Button.py)
 
 ### Reflection
-For this assignment, I was able to do the 🔥 SPICY VERSION 🔥 by when the button is pressed it ✋ aborts and then 🔄 resets the code back up to the top and waits for the button to be pressed again. I had trouble figuring out how to get the code to not abort and start the countdown at the same time. I solved this by using different states. I also had 🤔 the issue of not knowing how to get the code to reset to the top so I basically put an if statement at the bottom so that if liftoff or abort happened it would reset the code. 🚀🔁💡
+For this assignment, I was able to do the 🔥 SPICY VERSION 🔥 by when the button is pressed it ✋ aborts and then 🔄 resets the code back up to the top and waits for the button to be pressed again. I had trouble figuring out how to get the code not to abort and start the countdown at the same time. I solved this by using different states. I also had 🤔 the issue of not knowing how to get the code to reset to the top, so I put an if statement at the bottom so that if liftoff or abort happened, it would reset the code. 🚀🔁💡
 
 
 &nbsp;
@@ -120,15 +120,20 @@ The countdown starts from 10 and decreases by 1 every second until it reaches 0 
 
 ### Wiring
 
-![ServoCountdownWiring](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/IMG_2525.jpg)
-
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/IMG_2525.jpg"  width="50%" height="20%">
 ### Code
 
 [Servo Countdown Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/LaunchPadPt4_Servo.py)
 
 ### Reflection
 
+One of the main challenges I encountered was synchronizing the countdown, servo rotation, and button press handling. To address this, I introduced different states in the code. Initially, I had to ensure that the countdown didn't start immediately upon pressing the button. I resolved this by utilizing a state flag that allowed the countdown to commence only after the second button press, creating a smooth user experience. ✋🔄
 
+Another significant challenge was coordinating the servo's rotation to start at 3 seconds and continuously sweep until liftoff. To tackle this, I employed a flag that signaled the initiation of servo rotation precisely when the countdown reached 3 seconds. This flag-controlled servo movement ensured that the servo gradually reached 180 degrees by liftoff, aligning with the mission commander's requirements. 🤖🕒 But I was unable to get it to start at 3 seconds. So I did not do the 3 seconds.
+
+Furthermore, I handled button presses during the countdown, allowing for an "abort" action. Upon detecting an abort, the code reset its state, preparing for another countdown. This functionality was achieved by incorporating state management in the code. 🔁💡
+
+In the end, the code successfully orchestrated a synchronized countdown, servo rotation, and button interaction, meeting the mission commander's request for a controlled liftoff sequence. 🌟
 
 
 &nbsp;
@@ -148,7 +153,7 @@ Take a nice screenshot of your Onshape document.
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on the knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
 &nbsp;
 
