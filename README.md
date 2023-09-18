@@ -121,6 +121,7 @@ The countdown starts from 10 and decreases by 1 every second until it reaches 0 
 ### Wiring
 
 <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/IMG_2525.jpg"  width="50%" height="20%">
+
 ### Code
 
 [Servo Countdown Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/LaunchPadPt4_Servo.py)
