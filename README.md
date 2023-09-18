@@ -116,7 +116,7 @@ The countdown starts from 10 and decreases by 1 every second until it reaches 0 
 
 ### Evidence 
 
-![ServoCOUNTDOWN]()
+![ServoCOUNTDOWN](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/countdownservo.gif)
 
 ### Wiring
 
