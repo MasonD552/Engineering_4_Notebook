@@ -133,7 +133,7 @@ Another significant challenge was coordinating the servo's rotation to start at 
 
 Furthermore, I handled button presses during the countdown, allowing for an "abort" action. Upon detecting an abort, the code reset its state, preparing for another countdown. This functionality was achieved by incorporating state management in the code. 🔁💡
 
-In the end, the code successfully orchestrated a synchronized countdown, servo rotation, and button interaction, meeting the mission commander's request for a controlled liftoff sequence. 🌟
+In the end, the code successfully orchestrated a synchronized countdown, servo rotation, and button interaction, meeting the requirements for a controlled liftoff sequence. 🌟
 
 
 &nbsp;
