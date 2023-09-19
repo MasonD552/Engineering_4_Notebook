@@ -172,7 +172,7 @@ age = 30
 print(f"My name is {name} and I am {age} years old.")
 ```
 
-And voila! The values of `name` and `age` seamlessly integrate into your string, making it a breeze to understand and maintain. 🙌
+The values of `name` and `age` seamlessly integrate into your string, making it a breeze to understand and maintain. 🙌
 
 But wait, there's more! 🎉 You also mentioned learning about the `round()` function. 📏 This nifty function is like your personal math wizard, allowing you to round numerical values to a specific decimal place. 🧙‍♂️✨
 
@@ -186,7 +186,7 @@ print(f"The rounded value of pi is approximately {rounded_pi}.")
 
 The `round()` function does the magic here, rounding `pi` to two decimal places and giving you a clean and precise result. 🎩🔮
 
-So, in summary, f-strings and `round()` are two powerful tools in your Python arsenal that make your code more organized, readable, and precise. Happy coding! 🐍💻🚀
+So, f-strings and `round()` are two powerful tools in your Python arsenal that make your code more organized, readable, and precise. 🐍💻🚀
 
 &nbsp;
 ## Onshape_Assignment_Template
