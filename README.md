@@ -138,6 +138,28 @@ In the end, the code successfully orchestrated a synchronized countdown, servo r
 
 
 &nbsp;
+## Crash Avoidance Pt. 1
+
+### Assignment Description
+
+
+### Evidence 
+
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/CrashAvoidancePt1.gif"  width="80%" height="50%">
+
+### Wiring
+
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/WIN_20230919_13_42_01_Pro.jpg"  width="50%" height="20%">
+
+### Code
+
+[CrashAvoidancept1Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_Accelerometer.py)
+
+### Reflection
+
+
+
+&nbsp;
 ## Onshape_Assignment_Template
 
 ### Assignment Description
