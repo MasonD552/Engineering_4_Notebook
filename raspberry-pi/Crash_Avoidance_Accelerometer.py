@@ -1,8 +1,8 @@
-# type: ignore
+#type:ignore
 import board
 import busio
 import adafruit_mpu6050
-import time 
+
 # Initialize I2C communication
 sda_pin = board.GP14  # Replace with your SDA pin
 scl_pin = board.GP15  # Replace with your SCL pin
@@ -16,6 +16,10 @@ while True:
     acceleration = mpu.acceleration
     x_acceleration, y_acceleration, z_acceleration = acceleration
     
-    # Print acceleration values to the serial monitor
+    # Round acceleration values to 3 decimal places
+    x_acceleration = round(x_acceleration, 3)
+    y_acceleration = round(y_acceleration, 3)
+    z_acceleration = round(z_acceleration, 3)
+    
+    # Print rounded acceleration values to the serial monitor
     print(f"Acceleration (m/s²) - X: {x_acceleration}, Y: {y_acceleration}, Z: {z_acceleration}")
-    time.sleep(0.25)
