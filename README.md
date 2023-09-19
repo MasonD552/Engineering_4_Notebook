@@ -156,11 +156,37 @@ The acceleration values are rounded to three decimal places and continuously pri
 
 ### Code
 
-[CrashAvoidancept1Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_Accelerometer.py)
+[Crash Avoidance Pt. 1 Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_Accelerometer.py)
 
 ### Reflection
 
+😎 The coolest part of this assignment was definitely diving into the world of f-strings! 🚀 F-strings are really like the superheroes of Python formatting, making everything appear incredibly organized and simplifying the task of printing multiple values in a single statement. 🦸‍♂️💥
 
+Imagine you're juggling a bunch of variables and data, and you want to display them in a clear and neat way. That's where f-strings come to the rescue! You can effortlessly insert variables and expressions directly into your strings, using curly braces {} to enclose them. This not only keeps your code clean but also makes it super readable. 📚✨
+
+For instance, if you have variables `name` and `age`, you can print them together in a sentence like this:
+
+```python
+name = "John"
+age = 30
+print(f"My name is {name} and I am {age} years old.")
+```
+
+And voila! The values of `name` and `age` seamlessly integrate into your string, making it a breeze to understand and maintain. 🙌
+
+But wait, there's more! 🎉 You also mentioned learning about the `round()` function. 📏 This nifty function is like your personal math wizard, allowing you to round numerical values to a specific decimal place. 🧙‍♂️✨
+
+Let's say you have a float like `pi = 3.14159265359`, and you only want to display it with two decimal places:
+
+```python
+pi = 3.14159265359
+rounded_pi = round(pi, 2)
+print(f"The rounded value of pi is approximately {rounded_pi}.")
+```
+
+The `round()` function does the magic here, rounding `pi` to two decimal places and giving you a clean and precise result. 🎩🔮
+
+So, in summary, f-strings and `round()` are two powerful tools in your Python arsenal that make your code more organized, readable, and precise. Happy coding! 🐍💻🚀
 
 &nbsp;
 ## Onshape_Assignment_Template
