@@ -143,7 +143,8 @@ In the end, the code successfully orchestrated a synchronized countdown, servo r
 ## Crash_Avoidance_Pt_1
 
 ### Assignment Description
-
+This reads acceleration values from an MPU6050 accelerometer connected to a Raspberry Pi Pico.
+The acceleration values are rounded to three decimal places and continuously printed to the serial monitor
 
 ### Evidence 
 
