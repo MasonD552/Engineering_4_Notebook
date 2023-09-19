@@ -145,7 +145,7 @@ In the end, the code successfully orchestrated a synchronized countdown, servo r
 
 ### Evidence 
 
-<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/CrashAvoidancePt1.gif"  width="20%" height="20%">
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/CrashAvoidancePt1.gif"  width="80%" height="50%">
 
 ### Wiring
 
