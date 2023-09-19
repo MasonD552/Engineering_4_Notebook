@@ -10,8 +10,8 @@
 * [LaunchPad_Part 2](#LaunchPad_Part_2)
 * [LaunchPad_Part 3](#LaunchPad_Part_3)
 * [LaunchPad_Part 4](#LaunchPad_Part_4)
-* [Crash_Avoidance_Pt._1](#Crash_Avoidance_Pt._1)
-* [Crash Avoidance Pt. 2](#Crash_Avoidance_Pt._2)
+* [Crash_Avoidance_Pt_1](#Crash_Avoidance_Pt_1)
+* [Crash Avoidance Pt 2](#Crash_Avoidance_Pt_2)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -140,7 +140,7 @@ In the end, the code successfully orchestrated a synchronized countdown, servo r
 
 
 &nbsp;
-## Crash_Avoidance_Pt._1
+## Crash_Avoidance_Pt_1
 
 ### Assignment Description
 
