@@ -140,7 +140,7 @@ In the end, the code successfully orchestrated a synchronized countdown, servo r
 
 
 &nbsp;
-## Crash Avoidance Pt. 1
+## Crash_Avoidance_Pt._1
 
 ### Assignment Description
 
