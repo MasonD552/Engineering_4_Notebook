@@ -1,4 +1,4 @@
-#type:ignore
+#type: ignore 
 import board
 import busio
 import adafruit_mpu6050
@@ -12,7 +12,7 @@ i2c = busio.I2C(scl_pin, sda_pin)
 mpu = adafruit_mpu6050.MPU6050(i2c)
 
 # Initialize the LED
-led_pin = board.GPXX  # Replace with the actual GPIO pin you are using
+led_pin = board.GP16  # Replace with the actual GPIO pin you are using
 led = digitalio.DigitalInOut(led_pin)
 led.direction = digitalio.Direction.OUTPUT
 
@@ -23,8 +23,8 @@ while True:
     x_acceleration, y_acceleration, z_acceleration = acceleration
     
     # Check if the helicopter is tilted at approximately 90 degrees (adjust threshold as needed)
-    tilt_threshold = 0.1  # Adjust this value based on your setup
-    if abs(x_acceleration) < tilt_threshold and abs(y_acceleration) < tilt_threshold:
+    tilt_threshold = 0.45  # Adjust this value based on your setup
+    if z_acceleration < -tilt_threshold:
         # Helicopter is tilted, turn on the LED warning light
         led.value = True
     else:
