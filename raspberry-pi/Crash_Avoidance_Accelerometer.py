@@ -1,3 +1,6 @@
+#The code continuously reads acceleration data from the MPU6050, checks for approximately 90-degree tilts,
+# activates the LED warning light when a tilt is detected. 
+#It displays accelerometer data and the LED status on the serial monitor.
 #type:ignore
 import board
 import busio
