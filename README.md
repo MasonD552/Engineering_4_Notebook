@@ -189,6 +189,28 @@ The `round()` function does the magic here, rounding `pi` to two decimal places 
 So, f-strings and `round()` are two powerful tools in your Python arsenal that make your code more organized, readable, and precise. 🐍💻🚀
 
 &nbsp;
+## Crash_Avoidance_Pt_2
+
+### Assignment Description
+This reads acceleration values from an MPU6050 accelerometer connected to a Raspberry Pi Pico.
+The acceleration values are rounded to three decimal places and continuously printed to the serial monitor if the accelerometer is rotated 90 degrees then a red LED will turn on. 
+Connect a battery to make it so that the board runs wirelessly. 
+
+### Evidence 
+
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/crashavoidancelightpower.gif"  width="80%" height="50%">
+
+### Wiring
+
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/WIN_20230922_13_37_43_Pro.jpg"  width="50%" height="20%">
+
+### Code
+
+[Crash Avoidance Pt. 2 Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_Light%2BPower.py)
+
+### Reflection
+
+&nbsp;
 ## Onshape_Assignment_Template
 
 ### Assignment Description
