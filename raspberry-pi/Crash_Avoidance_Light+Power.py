@@ -1,3 +1,7 @@
+#This reads acceleration values from an MPU6050 accelerometer connected to a Raspberry Pi Pico. 
+#The acceleration values are rounded to three decimal places and continuously printed to the serial monitor if the accelerometer is rotated 90 degrees then a red LED will turn on. 
+#Connect a battery to make it so that the board runs wirelessly.
+
 #type: ignore 
 import board
 import busio
@@ -6,13 +10,13 @@ import digitalio
 import time
 
 # Initialize I2C communication with the MPU6050 sensor
-sda_pin = board.GP14  # Replace with your SDA pin
-scl_pin = board.GP15  # Replace with your SCL pin
+sda_pin = board.GP14  #SDA pin
+scl_pin = board.GP15  #SCL pin
 i2c = busio.I2C(scl_pin, sda_pin)
 mpu = adafruit_mpu6050.MPU6050(i2c)
 
 # Initialize the LED
-led_pin = board.GP16  # Replace with the actual GPIO pin you are using
+led_pin = board.GP16  #LED PIN = GP16
 led = digitalio.DigitalInOut(led_pin)
 led.direction = digitalio.Direction.OUTPUT
 
