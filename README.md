@@ -217,13 +217,13 @@ The first thing I did was create a threshold. This threshold was a variable that
 
 💡 LED Logic Challenge 💭
 
-The hardest part was figuring out whether to have the threshold be greater than the x and y variable or just z. So I decided to do just z, then it worked.
+The hardest part was figuring out whether to have the threshold be greater than the x and y variables or just z. So I decided to do just z, then it worked.
 
 👏 Credits to Mr. Miller 👨‍🏫
 
 I give credit to Mr. Miller as the only person to be able to get the batter out of the batter connector.
 
-This code and setup create a crash avoidance module for the scout helicopter, ensuring that the LED turns on when the helicopter tilts beyond 90 degrees. The use of the MPU6050 accelerometer, battery power, and LED makes it a functional and practical solution.
+
 &nbsp;
 ## Onshape_Assignment_Template
 
