@@ -209,7 +209,21 @@ Connect a battery to make it so that the board runs wirelessly.
 [Crash Avoidance Pt. 2 Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_Light%2BPower.py)
 
 ### Reflection
+In this assignment, we were tasked to build on the last assignment with the MPU6050. We had to add on by making it battery-powered and adding an LED.
 
+📊 Threshold Creation 📏
+
+The first thing I did was create a threshold. This threshold was a variable that would be set to an angle of 90 degrees. When the accelerometer went past 90 degrees, it would turn on the LED.
+
+💡 LED Logic Challenge 💭
+
+The hardest part was figuring out whether to have the threshold be greater than the x and y variable or just z. So I decided to do just z, then it worked.
+
+👏 Credits to Mr. Miller 👨‍🏫
+
+I give credit to Mr. Miller as the only person to be able to get the batter out of the batter connector.
+
+This code and setup create a crash avoidance module for the scout helicopter, ensuring that the LED turns on when the helicopter tilts beyond 90 degrees. The use of the MPU6050 accelerometer, battery power, and LED makes it a functional and practical solution.
 &nbsp;
 ## Onshape_Assignment_Template
 
