@@ -221,7 +221,7 @@ The hardest part was figuring out whether to have the threshold be greater than 
 
 👏 Credits to Mr. Miller 👨‍🏫
 
-I give credit to Mr. Miller as the only person to be able to get the batter out of the batter connector.
+I give credit to Mr. Miller as the only person to be able to get the battery out of the battery connector.
 
 
 &nbsp;
