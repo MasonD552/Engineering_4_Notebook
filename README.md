@@ -243,10 +243,10 @@ Print angular velocity values to OLED.
 
 ### Code
 
-[Crash Avoidance Pt. 2 Code]()
+[Crash Avoidance Pt. 3 Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_OLED.py)
 
 ### Reflection
-
+In this assignment, I was able to get the board to be rotated 90 degrees then turn on an LED and print the angular velocity values to an OLED. The hardest part of this assignment was figuring out the address of the OLED vs. the MPU 6050. I found that the OLED's address was 0x3d and the MPU's address was 0x68. When I realized that I was supposed to put the SDA and SCL into the same pin it worked. I was also able to figure out how to print my values on the board and have it say "LED Status:". In general, this assignemnt taught me how to print onto the OLED.
 
 
 &nbsp;
@@ -266,7 +266,19 @@ Take a nice screenshot of your Onshape document.
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on the knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+🚁 **Raspberry Pi Pico Crash Avoidance Module with MPU6050 and OLED** 🛠️
+
+In this assignment, I was able to get the board to be rotated 90 degrees then turn on an LED and print the angular velocity values to an OLED.
+
+🧩 **Address Conundrum** 🤔
+
+The hardest part of this assignment was figuring out the address of the OLED vs. the MPU6050. I found that the OLED's address was 0x3D, and the MPU's address was 0x68. When I realized that I was supposed to put the SDA and SCL into the same pin, it worked. 
+
+📊 **Displaying Data** 📝
+
+I was also able to figure out how to print my values on the board and have it say "LED Status:". In general, this assignment taught me how to print onto the OLED.
+
 
 &nbsp;
 
