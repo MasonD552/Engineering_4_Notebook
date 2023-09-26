@@ -246,7 +246,19 @@ Print angular velocity values to OLED.
 [Crash Avoidance Pt. 3 Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_OLED.py)
 
 ### Reflection
-In this assignment, I was able to get the board to be rotated 90 degrees then turn on an LED and print the angular velocity values to an OLED. The hardest part of this assignment was figuring out the address of the OLED vs. the MPU 6050. I found that the OLED's address was 0x3d and the MPU's address was 0x68. When I realized that I was supposed to put the SDA and SCL into the same pin it worked. I was also able to figure out how to print my values on the board and have it say "LED Status:". In general, this assignemnt taught me how to print onto the OLED.
+Certainly, here's your description with added emojis:
+
+🚁 **Raspberry Pi Pico Crash Avoidance Module with MPU6050 and OLED** 🛠️
+
+In this assignment, I was able to get the board to be rotated 90 degrees then turn on an LED and print the angular velocity values to an OLED.
+
+🧩 **Address Conundrum** 🤔
+
+The hardest part of this assignment was figuring out the address of the OLED vs. the MPU6050. I found that the OLED's address was 0x3D, and the MPU's address was 0x68. When I realized that I was supposed to put the SDA and SCL into the same pin, it worked. 
+
+📊 **Displaying Data** 📝
+
+I was also able to figure out how to print my values on the board and have it say "LED Status:". In general, this assignment taught me how to print onto the OLED.
 
 
 &nbsp;
@@ -265,19 +277,6 @@ Write your assignment description here. What is the purpose of this assignment? 
 Take a nice screenshot of your Onshape document. 
 
 ### Reflection
-
-
-🚁 **Raspberry Pi Pico Crash Avoidance Module with MPU6050 and OLED** 🛠️
-
-In this assignment, I was able to get the board to be rotated 90 degrees then turn on an LED and print the angular velocity values to an OLED.
-
-🧩 **Address Conundrum** 🤔
-
-The hardest part of this assignment was figuring out the address of the OLED vs. the MPU6050. I found that the OLED's address was 0x3D, and the MPU's address was 0x68. When I realized that I was supposed to put the SDA and SCL into the same pin, it worked. 
-
-📊 **Displaying Data** 📝
-
-I was also able to figure out how to print my values on the board and have it say "LED Status:". In general, this assignment taught me how to print onto the OLED.
 
 
 &nbsp;
