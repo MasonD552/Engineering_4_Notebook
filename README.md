@@ -225,6 +225,31 @@ I give credit to Mr. Miller as the only person to be able to get the battery out
 
 
 &nbsp;
+## Crash_Avoidance_Pt_3
+
+### Assignment Description
+This reads acceleration values from an MPU6050 accelerometer connected to a Raspberry Pi Pico.
+The acceleration values are rounded to three decimal places and continuously printed to the serial monitor if the accelerometer is rotated 90 degrees then a red LED will turn on. 
+Connect a battery to make it so that the board runs wirelessly. 
+Print angular velocity values to OLED.
+
+### Evidence 
+
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/OLEDCrashAvoidance.gif"  width="80%" height="50%">
+
+### Wiring
+
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/OLED_CrashAccel.jpg"  width="50%" height="20%">
+
+### Code
+
+[Crash Avoidance Pt. 2 Code]()
+
+### Reflection
+
+
+
+&nbsp;
 ## Onshape_Assignment_Template
 
 ### Assignment Description
