@@ -8,6 +8,7 @@ from adafruit_displayio_ssd1306 import SSD1306
 from adafruit_display_text import label
 import displayio
 import terminalio
+displayio.release_displays()
 
 # Initialize I2C communication with the MPU6050 sensor
 sda_pin = board.GP14  # Replace with your SDA pin
@@ -32,6 +33,7 @@ splash = displayio.Group()
 title = "ANGULAR VELOCITY"
 text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
 splash.append(text_area)
+display.show(splash)
 
 # Main loop
 while True:
@@ -52,13 +54,10 @@ while True:
     angular_velocity = mpu.gyro
     x_angular_velocity, y_angular_velocity, z_angular_velocity = angular_velocity
 
-    # Print accelerometer data and LED status
-    print(f"Acceleration (m/s²) - X: {x_acceleration:.3f}, Y: {y_acceleration:.3f}, Z: {z_acceleration:.3f}")
-    print(f"LED Status: {'ON' if led.value else 'OFF'}")
-
-    # Update OLED screen with angular velocity values
-    angular_velocity_text = f"X: {x_angular_velocity:.3f}, Y: {y_angular_velocity:.3f}, Z: {z_angular_velocity:.3f}"
-    text_area.text = angular_velocity_text
+    # Update OLED screen with angular velocity values and LED status
+    angular_velocity_text = f"X: {x_angular_velocity:.3f},\n Y: {y_angular_velocity:.3f},\n Z: {z_angular_velocity:.3f}"
+    led_status = "LED Status: ON" if led.value else "LED Status: OFF"
+    text_area.text = angular_velocity_text + "\n" + led_status
 
     # Add a delay to avoid rapid LED flickering
     time.sleep(0.1)
