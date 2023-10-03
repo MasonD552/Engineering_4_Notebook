@@ -13,7 +13,7 @@
 * [Crash_Avoidance_Pt_1](#Crash_Avoidance_Pt_1)
 * [Crash Avoidance Pt 2](#Crash_Avoidance_Pt_2)
 * [Crash Avoidance Pt 3](#Crash_Avoidance_Pt_3)
-* [Onshape_Assignment_Template](#onshape_assignment_template)
+* [FEA_Part_1_BeamDesign](#FEA_Part_1_BeamDesign)
 
 &nbsp;
 # Circuit Python
@@ -262,11 +262,22 @@ I was also able to figure out how to print my values on the board and have it sa
 
 
 &nbsp;
-## Onshape_Assignment_Template
+## FEA_Part_1_BeamDesign
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+This assignment explores engineering tradeoffs by designing a 3D-printed beam to maximize load-bearing capacity while adhering to specific constraints. The goal is to create a beam that avoids breaking or excessive bending(beyond 35mm) and satisfies the following requirements:
+
+
+Use the provided attachment block without modifications. 
+Ensure full engagement with the holder. 
+Follow the example eye bolt mounting geometry. 
+Place the eyebolt hole's center 180 mm from the attachment block's front face. 
+Prevent any part of the beam from extending below the attachment block. 
+Maintain vertical angles >= 45 degrees relative to the horizontal plane. 
+Use PLA material. 
+Keep the entire beam, including the attachment block, under 13 grams in weight.
+
 
 ### Part Link 
 
