@@ -289,6 +289,7 @@ Take a nice screenshot of your Onshape document.
 
 ### Reflection
 
+This assignment was enjoyable and challenging for us. We took inspiration on this design from the I beam which is the most substantial beam so we wanted to incorporate it into our design. The problem with the I beam was that it had too much of an overhang so we redesigned it as a Y beam for support. Another issue we ran into was having too much weight, in the beginning, the beam was very solid but it had way too much weight. For the cut down we had to add several circles and rectangular holes which affected the stability of the beam. My advice is for next time to create a little simpler design to avoid all the holes that we had to put, although I think our Y beam design was sturdy.
 
 &nbsp;
 
