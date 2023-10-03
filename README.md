@@ -247,7 +247,6 @@ Print angular velocity values to OLED.
 [Crash Avoidance Pt. 3 Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_OLED.py)
 
 ### Reflection
-Certainly, here's your description with added emojis:
 
 🚁 **Raspberry Pi Pico Crash Avoidance Module with MPU6050 and OLED** 🛠️
 
