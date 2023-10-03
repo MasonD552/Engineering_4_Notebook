@@ -281,7 +281,7 @@ This assignment explores engineering tradeoffs by designing a 3D-printed beam to
 
 ### Part Link 
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+[Beam Onshape Link](https://cvilleschools.onshape.com/documents/dd59f389e3f75e6c83491e1b/w/01511871c7c3bde9b77a0bbb/e/06a6eb71a015865d3f97e651?renderMode=0&uiState=651c4c872c3aec7eb76807df). 
 
 ### Part Image
 
