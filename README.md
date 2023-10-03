@@ -285,7 +285,7 @@ This assignment explores engineering tradeoffs by designing a 3D-printed beam to
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+![BeamOnshapePic](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Beam%20Starter%20%2B%20Holder%20Copy%201.png)
 
 ### Reflection
 
