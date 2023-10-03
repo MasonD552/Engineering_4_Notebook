@@ -269,14 +269,14 @@ I was also able to figure out how to print my values on the board and have it sa
 This assignment explores engineering tradeoffs by designing a 3D-printed beam to maximize load-bearing capacity while adhering to specific constraints. The goal is to create a beam that avoids breaking or excessive bending(beyond 35mm) and satisfies the following requirements:
 
 
-Use the provided attachment block without modifications. 
-Ensure full engagement with the holder. 
-Follow the example eye bolt mounting geometry. 
-Place the eyebolt hole's center 180 mm from the attachment block's front face. 
-Prevent any part of the beam from extending below the attachment block. 
-Maintain vertical angles >= 45 degrees relative to the horizontal plane. 
-Use PLA material. 
-Keep the entire beam, including the attachment block, under 13 grams in weight.
+* Use the provided attachment block without modifications. 
+* Ensure full engagement with the holder. 
+* Follow the example eye bolt mounting geometry. 
+* Place the eyebolt hole's center 180 mm from the attachment block's front face. 
+* Prevent any part of the beam from extending below the attachment block. 
+* Maintain vertical angles >= 45 degrees relative to the horizontal plane. 
+* Use PLA material. 
+* Keep the entire beam, including the attachment block, under 13 grams in weight.
 
 
 ### Part Link 
