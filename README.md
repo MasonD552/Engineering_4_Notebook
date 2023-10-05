@@ -297,7 +297,7 @@ This assignment was enjoyable and challenging for us. We took inspiration on thi
 
 ### Points Most Likely to Fail
 
-
+Our beam did well against the FEA but there is definitely room for improvement. In the base of our beam the bottom as well as the top are under pressure and it would snap there. The problem is the sharp corners and lack of materials, we are going to fix it by adding fillets and slimming it down to bulk up certain parts. Another problem we faced was the stress of the line of circles because they are too close together. 
 
 
 ### Part Link 
