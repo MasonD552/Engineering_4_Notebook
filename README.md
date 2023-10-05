@@ -306,10 +306,18 @@ This assignment was enjoyable and challenging for us. We took inspiration on thi
 
 ### Part Image
 
-![BeamStressAnalysis](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/BeamStressAnalysis.png)
-![BeamDisplacementAnalysis](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/BeamDisplacementAnalysis.png)
+<figure>
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/BeamStressAnalysis.png"
+         alt="BeamStressAnalysis">
+    <figcaption>von Mises stress(MPa)</figcaption>
+</figure>
+<figure>
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/BeamDisplacementAnalysis.png"
+         alt="BeamDisplacementAnalysis">
+    <figcaption>Displacement(mm)</figcaption>
+</figure>
 
-### Reflection
+
 
 
 
