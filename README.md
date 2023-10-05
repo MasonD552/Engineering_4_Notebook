@@ -14,6 +14,7 @@
 * [Crash Avoidance Pt 2](#Crash_Avoidance_Pt_2)
 * [Crash Avoidance Pt 3](#Crash_Avoidance_Pt_3)
 * [FEA_Part_1_BeamDesign](#FEA_Part_1_BeamDesign)
+* [FEA_Part_3_Analysis](#FEA_Part_3_Analysis)
 
 &nbsp;
 # Circuit Python
@@ -292,5 +293,27 @@ This assignment explores engineering tradeoffs by designing a 3D-printed beam to
 This assignment was enjoyable and challenging for us. We took inspiration on this design from the I beam which is the most substantial beam so we wanted to incorporate it into our design. The problem with the I beam was that it had too much of an overhang so we redesigned it as a Y beam for support. Another issue we ran into was having too much weight, in the beginning, the beam was very solid but it had way too much weight. For the cut down we had to add several circles and rectangular holes which affected the stability of the beam. My advice is for next time to create a little simpler design to avoid all the holes that we had to put, although I think our Y beam design was sturdy.
 
 &nbsp;
+## FEA_Part_3_Analysis
+
+### Points Most Likely to Fail
+
+
+
+
+### Part Link 
+
+[Beam Onshape Link](https://cvilleschools.onshape.com/documents/dd59f389e3f75e6c83491e1b/w/01511871c7c3bde9b77a0bbb/e/06a6eb71a015865d3f97e651?renderMode=0&uiState=651c4c872c3aec7eb76807df). 
+
+### Part Image
+
+![BeamStressAnalysis](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/BeamStressAnalysis.png)
+![BeamDisplacementAnalysis](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/BeamDisplacementAnalysis.png)
+
+### Reflection
+
+
+
+&nbsp;
+
 
 
