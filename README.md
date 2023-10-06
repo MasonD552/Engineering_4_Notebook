@@ -316,7 +316,11 @@ Our beam did well against the FEA but there is definitely room for improvement. 
          alt="BeamDisplacementAnalysis">
     <figcaption>Displacement(mm)</figcaption>
 </figure>
-
+<figure>
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Version%201%20Assembly%20Front%20View.png"
+         alt="BeamDisplacementAnalysis">
+    <figcaption>Deformation Scale:1</figcaption>
+</figure>
 
 
 
