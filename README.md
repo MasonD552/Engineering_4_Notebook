@@ -319,7 +319,31 @@ Our beam did well against the FEA but there is definitely room for improvement. 
 <figure>
 
 
+&nbsp;
+## FEA_Part_4_Iterative_Design
 
+### What we did to improve
+
+
+
+
+### Part Link 
+
+[Beam Onshape Link](https://cvilleschools.onshape.com/documents/dd59f389e3f75e6c83491e1b/w/01511871c7c3bde9b77a0bbb/e/06a6eb71a015865d3f97e651?renderMode=0&uiState=651c4c872c3aec7eb76807df). 
+
+### Part Image
+
+<figure>
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/part%204%20vonmises.png"
+         alt="BeamStressAnalysis">
+    <figcaption>von Mises stress(MPa)</figcaption>
+</figure>
+<figure>
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/part4%20displacement.png"
+         alt="BeamDisplacementAnalysis">
+    <figcaption>Displacement(mm)</figcaption>
+</figure>
+<figure>
 
 
 &nbsp;
