@@ -323,7 +323,7 @@ Our beam did well against the FEA but there is definitely room for improvement. 
 ## FEA_Part_4_Iterative_Design
 
 ### What we did to improve
-
+9.25187% decrease in displacement
 
 
 
