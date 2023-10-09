@@ -307,17 +307,17 @@ Our beam did well against the FEA but there is definitely room for improvement. 
 ### Part Image
 
 <figure>
-    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/BeamStressAnalysis.png"
+    <img src=""
          alt="BeamStressAnalysis">
     <figcaption>von Mises stress(MPa)</figcaption>
 </figure>
 <figure>
-    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/BeamDisplacementAnalysis.png"
+    <img src=""
          alt="BeamDisplacementAnalysis">
     <figcaption>Displacement(mm)</figcaption>
 </figure>
 <figure>
-    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Version%201%20Assembly%20Front%20View.png"
+    <img src=""
          alt="BeamDisplacementAnalysis">
     <figcaption>Deformation Scale:1</figcaption>
 </figure>
