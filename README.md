@@ -325,7 +325,7 @@ Our beam did well against the FEA but there is definitely room for improvement. 
 ### What we did to improve
 9.25187% decrease in displacement
 
-
+18.7901%decrease in von mises stress
 
 ### Part Link 
 
