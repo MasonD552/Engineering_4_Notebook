@@ -345,6 +345,37 @@ Our beam did well against the FEA but there is definitely room for improvement. 
 </figure>
 <figure>
 
+### Reflection
+Going from version one we knew we had to get rid of the overhangs we didn't realize we had. We saw that in the FEA simulation, the most stress was on the top part. We also noticed that there was not a lot of pressure where the clip was. So we moved some of the weight from the tip higher up. We also got rid of the overhangs, we used more fillets and chamfers to make the edges stronger. We also wanted to decrease stress and we did that by decreasing the stress by 18.7901% and 9.25% for the displacement. We were able to make out beam pretty strong. Some of the weak spots were the connection to the connector piece and the circle/holes were also a weak spot. In all, we were pretty successful in creating a beam that was able to hold weight.
+
+
+&nbsp;
+## FEA_Part_5_Final_Beam
+
+### What we did to improve
+9.25187% decrease in displacement
+
+18.7901%decrease in von mises stress
+
+### Part Link 
+
+[Beam Onshape Link](https://cvilleschools.onshape.com/documents/dd59f389e3f75e6c83491e1b/w/01511871c7c3bde9b77a0bbb/e/06a6eb71a015865d3f97e651?renderMode=0&uiState=651c4c872c3aec7eb76807df). 
+
+### Part Image & Videos
+
+<figure>
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/part%204%20vonmises.png"
+         alt="BeamStressAnalysis">
+    <figcaption>von Mises stress(MPa)</figcaption>
+</figure>
+<figure>
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/part4%20displacement.png"
+         alt="BeamDisplacementAnalysis">
+    <figcaption>Displacement(mm)</figcaption>
+</figure>
+<figure>
+
+### Reflection
 
 &nbsp;
 
