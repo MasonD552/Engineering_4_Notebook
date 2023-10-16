@@ -363,6 +363,7 @@ Going from version one we knew we had to get rid of the overhangs we didn't real
 [Beam Onshape Link](https://cvilleschools.onshape.com/documents/dd59f389e3f75e6c83491e1b/w/01511871c7c3bde9b77a0bbb/e/06a6eb71a015865d3f97e651?renderMode=0&uiState=651c4c872c3aec7eb76807df). 
 
 ### Part Image & Videos
+![Slowmo gif](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/ezgif.com-video-to-gif%20(2).gif)
 
 <figure>
     <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/part%204%20vonmises.png"
