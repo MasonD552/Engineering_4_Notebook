@@ -15,6 +15,7 @@
 * [Crash Avoidance Pt 3](#Crash_Avoidance_Pt_3)
 * [FEA_Part_1_BeamDesign](#FEA_Part_1_BeamDesign)
 * [FEA_Part_3_Analysis](#FEA_Part_3_Analysis)
+* [FEA_Part_4_Iterative_Design](#FEA_Part_4_Iterative_Design)
 
 &nbsp;
 # Circuit Python
