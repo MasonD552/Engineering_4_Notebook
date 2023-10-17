@@ -367,18 +367,20 @@ Going from version one we knew we had to get rid of the overhangs we didn't real
 ![Slowmo gif](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/ezgif.com-video-to-gif%20(2).gif)
 
 <figure>
-    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/part%204%20vonmises.png"
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/finalbeamvonmises.png"
          alt="BeamStressAnalysis">
     <figcaption>von Mises stress(MPa)</figcaption>
 </figure>
 <figure>
-    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/part4%20displacement.png"
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/finalnbeamdeformation.png"
          alt="BeamDisplacementAnalysis">
     <figcaption>Displacement(mm)</figcaption>
 </figure>
 <figure>
 
 ### Reflection
+For this assignment we were able to make our beam able to hold more weight, meaning our stress had a higher tolerance, but the displacement worsened from the last assignment. If we were to change our beam I think we would make the thickness of the beam thicker. We could also have done multiple tests to ensure the beam worked more in FEA. In total, I was pretty pleased with how our beam turned out.
+
 
 &nbsp;
 
