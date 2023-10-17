@@ -327,7 +327,7 @@ Our beam did well against the FEA but there is definitely room for improvement. 
 ### What we did to improve
 9.25187% decrease in displacement
 
-18.7901%decrease in von mises stress
+18.7901% decrease in von mises stress
 
 ### Part Link 
 
@@ -355,9 +355,9 @@ Going from version one we knew we had to get rid of the overhangs we didn't real
 ## FEA_Part_5_Final_Beam
 
 ### What we did to improve
-9.25187% decrease in displacement
+1.97857%increase in displacement
 
-18.7901%decrease in von mises stress
+0.428477% increase in von mises stress
 
 ### Part Link 
 
