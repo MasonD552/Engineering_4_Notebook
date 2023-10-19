@@ -12,8 +12,12 @@
 * [LaunchPad_Part 4](#LaunchPad_Part_4)
 * [Crash_Avoidance_Pt_1](#Crash_Avoidance_Pt_1)
 * [Crash Avoidance Pt 2](#Crash_Avoidance_Pt_2)
-* [Onshape_Assignment_Template](#onshape_assignment_template)
-
+* [Crash Avoidance Pt 3](#Crash_Avoidance_Pt_3)
+* [FEA_Part_1_BeamDesign](#FEA_Part_1_BeamDesign)
+* [FEA_Part_3_Analysis](#FEA_Part_3_Analysis)
+* [FEA_Part_4_Iterative_Design](#FEA_Part_4_Iterative_Design)
+* [FEA_Part_5_Final_Beam](#FEA_Part_5_Final_Beam)
+  
 &nbsp;
 # Circuit Python
 ![PinMap](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Screenshot%202023-09-12%20201819.png)
@@ -243,31 +247,142 @@ Print angular velocity values to OLED.
 
 ### Code
 
-[Crash Avoidance Pt. 2 Code]()
+[Crash Avoidance Pt. 3 Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_OLED.py)
 
 ### Reflection
 
+🚁 **Raspberry Pi Pico Crash Avoidance Module with MPU6050 and OLED** 🛠️
+
+In this assignment, I was able to get the board to be rotated 90 degrees then turn on an LED and print the angular velocity values to an OLED.
+
+🧩 **Address Conundrum** 🤔
+
+The hardest part of this assignment was figuring out the address of the OLED vs. the MPU6050. I found that the OLED's address was 0x3D, and the MPU's address was 0x68. When I realized that I was supposed to put the SDA and SCL into the same pin, it worked. 
+
+📊 **Displaying Data** 📝
+
+I was also able to figure out how to print my values on the board and have it say "LED Status:". In general, this assignment taught me how to print onto the OLED.
 
 
 &nbsp;
-## Onshape_Assignment_Template
+## FEA_Part_1_BeamDesign
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+This assignment explores engineering tradeoffs by designing a 3D-printed beam to maximize load-bearing capacity while adhering to specific constraints. The goal is to create a beam that avoids breaking or excessive bending(beyond 35mm) and satisfies the following requirements:
+
+
+* Use the provided attachment block without modifications. 
+* Ensure full engagement with the holder. 
+* Follow the example eye bolt mounting geometry. 
+* Place the eyebolt hole's center 180 mm from the attachment block's front face. 
+* Prevent any part of the beam from extending below the attachment block. 
+* Maintain vertical angles >= 45 degrees relative to the horizontal plane. 
+* Use PLA material. 
+* Keep the entire beam, including the attachment block, under 13 grams in weight.
+
 
 ### Part Link 
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+[Beam Onshape Link](https://cvilleschools.onshape.com/documents/dd59f389e3f75e6c83491e1b/w/01511871c7c3bde9b77a0bbb/e/06a6eb71a015865d3f97e651?renderMode=0&uiState=651c4c872c3aec7eb76807df). 
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+![BeamOnshapePic](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Beam%20Starter%20%2B%20Holder%20Copy%201.png)
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on the knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was enjoyable and challenging for us. We took inspiration on this design from the I beam which is the most substantial beam so we wanted to incorporate it into our design. The problem with the I beam was that it had too much of an overhang so we redesigned it as a Y beam for support. Another issue we ran into was having too much weight, in the beginning, the beam was very solid but it had way too much weight. For the cut down we had to add several circles and rectangular holes which affected the stability of the beam. My advice is for next time to create a little simpler design to avoid all the holes that we had to put, although I think our Y beam design was sturdy.
 
 &nbsp;
+## FEA_Part_3_Analysis
+
+### Points Most Likely to Fail
+
+Our beam did well against the FEA but there is definitely room for improvement. In the base of our beam the bottom as well as the top are under pressure and it would snap there. The problem is the sharp corners and lack of materials, we are going to fix it by adding fillets and slimming it down to bulk up certain parts. Another problem we faced was the stress of the line of circles because they are too close together. 
+
+
+### Part Link 
+
+[Beam Onshape Link](https://cvilleschools.onshape.com/documents/dd59f389e3f75e6c83491e1b/w/01511871c7c3bde9b77a0bbb/e/06a6eb71a015865d3f97e651?renderMode=0&uiState=651c4c872c3aec7eb76807df). 
+
+### Part Image
+
+<figure>
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/FEAPART3AnalysisvonMises%20stress.png"
+         alt="BeamStressAnalysis">
+    <figcaption>von Mises stress(MPa)</figcaption>
+</figure>
+<figure>
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/FEAPART3AnalysisDisplacement.png"
+         alt="BeamDisplacementAnalysis">
+    <figcaption>Displacement(mm)</figcaption>
+</figure>
+<figure>
+
+
+&nbsp;
+## FEA_Part_4_Iterative_Design
+
+### What we did to improve
+9.25187% decrease in displacement
+
+18.7901% decrease in von mises stress
+
+### Part Link 
+
+[Beam Onshape Link](https://cvilleschools.onshape.com/documents/dd59f389e3f75e6c83491e1b/w/01511871c7c3bde9b77a0bbb/e/06a6eb71a015865d3f97e651?renderMode=0&uiState=651c4c872c3aec7eb76807df). 
+
+### Part Image
+
+<figure>
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/part%204%20vonmises.png"
+         alt="BeamStressAnalysis">
+    <figcaption>von Mises stress(MPa)</figcaption>
+</figure>
+<figure>
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/part4%20displacement.png"
+         alt="BeamDisplacementAnalysis">
+    <figcaption>Displacement(mm)</figcaption>
+</figure>
+<figure>
+
+### Reflection
+Going from version one we knew we had to get rid of the overhangs we didn't realize we had. We saw that in the FEA simulation, the most stress was on the top part. We also noticed that there was not a lot of pressure where the clip was. So we moved some of the weight from the tip higher up. We also got rid of the overhangs, we used more fillets and chamfers to make the edges stronger. We also wanted to decrease stress and we did that by decreasing the stress by 18.7901% and 9.25% for the displacement. We were able to make out beam pretty strong. Some of the weak spots were the connection to the connector piece and the circle/holes were also a weak spot. In all, we were pretty successful in creating a beam that was able to hold weight.
+
+
+&nbsp;
+## FEA_Part_5_Final_Beam
+
+### What we did to improve
+1.97857%increase in displacement
+
+0.428477% increase in von mises stress
+
+### Part Link 
+
+[Beam Onshape Link](https://cvilleschools.onshape.com/documents/dd59f389e3f75e6c83491e1b/w/01511871c7c3bde9b77a0bbb/e/06a6eb71a015865d3f97e651?renderMode=0&uiState=651c4c872c3aec7eb76807df). 
+
+### Part Image & Videos
+![Slowmo gif](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/ezgif.com-video-to-gif%20(2).gif)
+
+<figure>
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/finalbeamvonmises.png"
+         alt="BeamStressAnalysis">
+    <figcaption>von Mises stress(MPa)</figcaption>
+</figure>
+<figure>
+    <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/finalnbeamdeformation.png"
+         alt="BeamDisplacementAnalysis">
+    <figcaption>Displacement(mm)</figcaption>
+</figure>
+<figure>
+
+### Reflection
+For this assignment we were able to make our beam able to hold more weight, meaning our stress had a higher tolerance, but the displacement worsened from the last assignment. If we were to change our beam I think we would make the thickness of the beam thicker. We could also have done multiple tests to ensure the beam worked more in FEA. In total, I was pretty pleased with how our beam turned out.
+
+
+&nbsp;
+
 
 
