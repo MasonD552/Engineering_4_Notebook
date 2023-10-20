@@ -405,7 +405,7 @@ The code must return to the input stage after printing the area, and wait for us
 [Landing_Area_Part_1_Functions_Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Pt1_Functions.py)
 
 ### Reflection
-In this assignment I was able to make the 
+In this assignment, I was able to make the function tell the script to find the area of three vertices of the triangle(x1,y1), etc. When I started I completely glanced over the part where it asks you to do the .split part. If I hadn't asked Mr. Miller I would have of submitted the wrong thing. I also made it so that it would check to see if the form is improper or if the triangle is linear(not a triangle) it would say it was invalid. I finally got it so that I could input the coordinates like 1,2 then 2,9 then 30, 20 and I didn't have to input them in one line.
 
 
 
