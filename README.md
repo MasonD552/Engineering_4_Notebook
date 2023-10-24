@@ -17,7 +17,7 @@
 * [FEA_Part_3_Analysis](#FEA_Part_3_Analysis)
 * [FEA_Part_4_Iterative_Design](#FEA_Part_4_Iterative_Design)
 * [FEA_Part_5_Final_Beam](#FEA_Part_5_Final_Beam)
-* [Landing_Area_Part_1(Functions)](#Landing_Area_Part_1(Functions))
+* [Landing_Area_Part_1(Functions)](#Landing_Area_Part_1_Functions)
   
 &nbsp;
 # Circuit Python
@@ -385,7 +385,7 @@ For this assignment we were able to make our beam able to hold more weight, mean
 
 &nbsp;
 
-## Landing_Area_Part_1(Functions)
+## Landing_Area_Part_1_Functions
 
 ### Assignment Description
 
