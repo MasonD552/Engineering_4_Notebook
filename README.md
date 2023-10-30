@@ -17,6 +17,7 @@
 * [FEA_Part_3_Analysis](#FEA_Part_3_Analysis)
 * [FEA_Part_4_Iterative_Design](#FEA_Part_4_Iterative_Design)
 * [FEA_Part_5_Final_Beam](#FEA_Part_5_Final_Beam)
+* [Landing_Area_Part_1(Functions)](#Landing_Area_Part_1_Functions)
   
 &nbsp;
 # Circuit Python
@@ -384,5 +385,29 @@ For this assignment we were able to make our beam able to hold more weight, mean
 
 &nbsp;
 
+## Landing_Area_Part_1_Functions
 
+### Assignment Description
+
+The code must ask for the user to input a set of three coordinates in (x,y) format
+The triangle area must be determined using a function
+If the user inputs coordinates incorrectly (letters or improper format) the code should return to the input stage, it should not throw an error or exit the script
+The triangle area must be printed to the screen in this format: “The area of the triangle with vertices (x,y), (x,y), (x,y) is {area} square km.
+The code must return to the input stage after printing the area, and wait for user input.
+
+### Evidence 
+
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Landing%20area%20pt1.gif"  width="80%" height="50%">
+
+
+### Code
+
+[Landing_Area_Part_1_Functions_Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Pt1_Functions.py)
+
+### Reflection
+In this assignment, I was able to make the function tell the script to find the area of three vertices of the triangle(x1,y1), etc. When I started I completely glanced over the part where it asks you to do the .split part. If I hadn't asked Mr. Miller I would have of submitted the wrong thing. I also made it so that it would check to see if the form is improper or if the triangle is linear(not a triangle) it would say it was invalid. I finally got it so that I could input the coordinates like 1,2 then 2,9 then 30, 20 and I didn't have to input them in one line.
+
+
+
+&nbsp;
 
