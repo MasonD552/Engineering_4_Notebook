@@ -18,6 +18,7 @@
 * [FEA_Part_4_Iterative_Design](#FEA_Part_4_Iterative_Design)
 * [FEA_Part_5_Final_Beam](#FEA_Part_5_Final_Beam)
 * [Landing_Area_Part_1(Functions)](#Landing_Area_Part_1_Functions)
+* [Landing_Area_Part_2(Plotting)](#Landing_Area_Part_2_Plotting)
   
 &nbsp;
 # Circuit Python
@@ -406,6 +407,34 @@ The code must return to the input stage after printing the area, and wait for us
 
 ### Reflection
 In this assignment, I was able to make the function tell the script to find the area of three vertices of the triangle(x1,y1), etc. When I started I completely glanced over the part where it asks you to do the .split part. If I hadn't asked Mr. Miller I would have of submitted the wrong thing. I also made it so that it would check to see if the form is improper or if the triangle is linear(not a triangle) it would say it was invalid. I finally got it so that I could input the coordinates like 1,2 then 2,9 then 30, 20 and I didn't have to input them in one line.
+
+
+
+&nbsp;
+## Landing_Area_Part_2_Plotting
+
+### Assignment Description
+
+The code must ask for the user to input a set of three coordinates in (x,y) format
+of a triangle, calculates its area, and displays it on a 128x64 OLED screen.
+After displaying the triangle and its area, the program waits for 5 seconds and then prompts for new coordinates.
+
+
+### Evidence 
+
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Landing%20area%20plotting%20gif.gif"  width="80%" height="50%">
+
+### Wiring
+
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/LA2wiring.jpg"  width="80%" height="50%">
+
+
+### Code
+
+[Landing_Area_Part_2_Plotting_Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Pt2_Plotting.py)
+
+### Reflection
+In this assignment, I made the function tell the script to find the area of three vertices of the triangle(x1,y1), etc. I was able to take those vertices and plug them into new functions Circle(), Triangle(), Line(). I also learned more about how the OLED works with different display groups. I was also able to learn how the origin is graphed on the OLED. Your y values go down and x values go to the right. I was also able to use where the origin is set to graph the x axis and y axis. I kept having issues with graphing the x and y axis so I only made one display group. Then my triangle wouldn't clear so I commented my try and went to see why my code kept coming up with an error.
 
 
 
