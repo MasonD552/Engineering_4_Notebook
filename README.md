@@ -19,6 +19,7 @@
 * [FEA_Part_5_Final_Beam](#FEA_Part_5_Final_Beam)
 * [Landing_Area_Part_1(Functions)](#Landing_Area_Part_1_Functions)
 * [Landing_Area_Part_2(Plotting)](#Landing_Area_Part_2_Plotting)
+* [Morse_Code_Pt1(Translation)](#Morse_Code_Pt1_Translation)
   
 &nbsp;
 # Circuit Python
@@ -440,3 +441,24 @@ In this assignment, I made the function tell the script to find the area of thre
 
 &nbsp;
 
+## Morse_Code_Pt1_Translation
+
+### Assignment Description
+Create a Python script that acts as a Morse code translator. It utilizes a provided dictionary to map English letters and numbers to their Morse code equivalents. The code takes user input for text and translates it into Morse code, with spaces between letters and slashes between words. The program allows the user to exit by typing "-q". This assignment demonstrates text processing, dictionary usage, and interactive user input handling in Python.
+
+### Evidence 
+
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Morse%20code%20translation.gif"  width="80%" height="50%">
+
+
+
+### Code
+
+[Morse Code Translation Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Morse_Code_Pt1_Translation.py)
+
+### Reflection
+
+This was a pretty simple assignment as I have used dictionaries in code before at home so this was a good review of dictionaries. Using the break tool was interesting as I was able to get it so that it would break and go back to the top after a text was translated. The only confusing part was when I went to check the translation online it came up with some weird translations like "Hell# Wo#ld". It would do that on one of the websites but others wouldn't do that. I wasn't too worried as I knew my code worked.
+
+
+&nbsp;
