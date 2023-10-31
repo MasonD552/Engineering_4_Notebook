@@ -424,6 +424,10 @@ After displaying the triangle and its area, the program waits for 5 seconds and 
 
 <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Landing%20area%20plotting%20gif.gif"  width="80%" height="50%">
 
+### Wiring
+
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/LA2wiring.jpg"  width="80%" height="50%">
+
 
 ### Code
 
