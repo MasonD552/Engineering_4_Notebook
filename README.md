@@ -421,15 +421,15 @@ After displaying the triangle and its area, the program waits for 5 seconds and 
 
 ### Evidence 
 
-<img src=""  width="80%" height="50%">
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Landing%20area%20plotting%20gif.gif"  width="80%" height="50%">
 
 
 ### Code
 
-[Landing_Area_Part_1_Functions_Code]()
+[Landing_Area_Part_1_Functions_Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_Pt2_Plotting.py)
 
 ### Reflection
-In this assignment, I was able to make the function tell the script to find the area of three vertices of the triangle(x1,y1), etc. I was able to take those verticies and plug them into new functions Circle(), Triangle(), Line().
+In this assignment, I made the function tell the script to find the area of three vertices of the triangle(x1,y1), etc. I was able to take those vertices and plug them into new functions Circle(), Triangle(), Line(). I also learned more about how the OLED works with different display groups. I was also able to learn how the origin is graphed on the OLED. Your y values go down and x values go to the right. I was also able to use where the origin is set to graph the x axis and y axis. I kept having issues with graphing the x and y axis so I only made one display group. Then my triangle wouldn't clear so I commented my try and went to see why my code kept coming up with an error.
 
 
 
