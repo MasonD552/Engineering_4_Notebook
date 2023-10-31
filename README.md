@@ -18,6 +18,7 @@
 * [FEA_Part_4_Iterative_Design](#FEA_Part_4_Iterative_Design)
 * [FEA_Part_5_Final_Beam](#FEA_Part_5_Final_Beam)
 * [Landing_Area_Part_1(Functions)](#Landing_Area_Part_1_Functions)
+* [Landing_Area_Part_2(Plotting)](#Landing_Area_Part_2_Plotting)
   
 &nbsp;
 # Circuit Python
