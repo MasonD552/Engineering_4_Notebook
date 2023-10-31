@@ -410,4 +410,28 @@ In this assignment, I was able to make the function tell the script to find the 
 
 
 &nbsp;
+## Landing_Area_Part_2_Plotting
+
+### Assignment Description
+
+The code must ask for the user to input a set of three coordinates in (x,y) format
+of a triangle, calculates its area, and displays it on a 128x64 OLED screen.
+After displaying the triangle and its area, the program waits for 5 seconds and then prompts for new coordinates.
+
+
+### Evidence 
+
+<img src=""  width="80%" height="50%">
+
+
+### Code
+
+[Landing_Area_Part_1_Functions_Code]()
+
+### Reflection
+In this assignment, I was able to make the function tell the script to find the area of three vertices of the triangle(x1,y1), etc. I was able to take those verticies and plug them into new functions Circle(), Triangle(), Line().
+
+
+
+&nbsp;
 
