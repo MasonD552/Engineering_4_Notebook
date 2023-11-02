@@ -462,3 +462,25 @@ This was a pretty simple assignment as I have used dictionaries in code before a
 
 
 &nbsp;
+## Morse_Code_Pt2_Transmission
+
+### Assignment Description
+Create a Python script that acts as a Morse code translator. It utilizes a provided dictionary to map English letters and numbers to their Morse code equivalents. The code takes user input for text and translates it into Morse code, with spaces between letters and slashes between words. The program allows the user to exit by typing "-q". Then it takes each dot or dash and transmits it to a led. The space between each word is converted to time.sleep() to add a space between each word.
+### Evidence 
+
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Morse%20Code%20Part%202%20Transmission.gif"  width="80%" height="50%">
+
+### Wiring
+https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Wiring%20morse%20code%20transmission.jpg
+
+### Code
+
+[Morse Code Translation Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Morse_Code_Pt1_Translation.py)
+
+### Reflection
+
+This was a pretty simple assignment as I have used dictionaries in code before at home so this was a good review of dictionaries. Using the break tool was interesting as I was able to get it so that it would break and go back to the top after a text was translated. The only confusing part was when I went to check the translation online it came up with some weird translations like "Hell# Wo#ld". It would do that on one of the websites but others wouldn't do that. I wasn't too worried as I knew my code worked.
+
+
+&nbsp;
+
