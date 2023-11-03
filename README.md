@@ -472,7 +472,7 @@ Create a Python script that acts as a Morse code translator. It utilizes a provi
 <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Morse%20Code%20Part%202%20Transmission.gif"  width="80%" height="50%">
 
 ### Wiring
-https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Wiring%20morse%20code%20transmission.jpg
+![MorseCode wiring transmission](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Wiring%20morse%20code%20transmission.jpg)
 
 ### Code
 
