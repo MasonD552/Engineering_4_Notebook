@@ -12,11 +12,14 @@ scl_pin = board.GP15  # SCL pin
 i2c = busio.I2C(scl_pin, sda_pin)
 mpu = adafruit_mpu6050.MPU6050(i2c)
 
-# Initialize the LED
-led_pin = board.GP16  # LED PIN = GP16
+# Initialize the Onboard Led and Led connected to GP16
+led_pin = board.LED  # LED PIN = ONBOARD
 led = digitalio.DigitalInOut(led_pin)
 led.direction = digitalio.Direction.OUTPUT
 
+led_2_pin = board.GP16  # LED PIN = GP16
+led_2 = digitalio.DigitalInOut(led_2_pin)
+led_2.direction = digitalio.Direction.OUTPUT
 # Function to check if the Pico is tilted
 def is_tilted(acceleration, tilt_threshold):
     x_acceleration, y_acceleration, z_acceleration = acceleration
@@ -36,6 +39,12 @@ with open("/data.csv", "a") as datalog:
         tilt_threshold = 0.45  # Adjust this value based on your setup
         tilt = 1 if is_tilted(acceleration, tilt_threshold) else 0
 
+        if z_acceleration < -tilt_threshold:
+            # tilted, turn on the LED warning light
+            led_2.value = True
+        else:
+            # not tilted, turn off the LED
+            led_2.value = False
         # Prepare the data as a CSV string
         data_string = f"{time_elapsed:.2f},{x_acceleration:.3f},{y_acceleration:.3f},{z_acceleration:.3f},{tilt}\n"
 
