@@ -1,3 +1,6 @@
+# code for Pico data logging. Switch between Code and Data Modes using GP0. 
+# Records time, XYZ acceleration, and tilt status. LED blinks on data save. Retrieve data on computer.
+
 #type: ignore 
 import board
 import busio
