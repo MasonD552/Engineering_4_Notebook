@@ -504,6 +504,7 @@ Records time, XYZ acceleration, and tilt status. LED blinks on data save. Retrie
 
 ### Reflection
 This assignment was hard, I kept running into a lot of difficulty with my board completely resetting itself, and I also couldn't get my switch to work. I eventually got everything to work. For the board factory resetting itself, I found out that when I had the battery switched on and I went to plug the board into the computer I would notice the code.py file said "Hello World" Then I checked and saw that my lib file was empty. I made a lib file so when I insert new lib folders/files onto my board I would have them saved so I would have to go fetch them. The switch situation was easy I had to find a new switch and I also realized that to switch from data to code mode you have to switch AND unplug and replug in the board. 
+# To avoid in the future: DON'T HAVE BATTERY ON OR PLUGGED IN WHEN PLUGGED INTO COMPUTER
 
 
 &nbsp;
