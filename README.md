@@ -21,6 +21,7 @@
 * [Landing_Area_Part_2(Plotting)](#Landing_Area_Part_2_Plotting)
 * [Morse_Code_Pt1(Translation)](#Morse_Code_Pt1_Translation)
 * [Morse_Code_Pt2(Transmission)](#Morse_Code_Pt2_Transmission)
+* [Data Pt 1(Storage](#Data_Pt1_Storage)
   
 &nbsp;
 # Circuit Python
@@ -487,6 +488,8 @@ This was a pretty simple assignment as I have used dictionaries in code before a
 ## Data_Pt1_Storage
 
 ### Assignment Description
+Log data to data.csv file. Switch between Code and Data Modes using GP0. 
+Records time, XYZ acceleration, and tilt status. LED blinks on data save. Retrieve data on the computer.
 
 ### Evidence 
 
@@ -500,7 +503,7 @@ This was a pretty simple assignment as I have used dictionaries in code before a
 [Data Storage Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Pt1_Storage.py)
 
 ### Reflection
-
+This assignment was hard, I kept running into a lot of difficulty with my board completely resetting itself, and I also couldn't get my switch to work. I eventually got everything to work. For the board factory resetting itself, I found out that when I had the battery switched on and I went to plug the board into the computer I would notice the code.py file said "Hello World" Then I checked and saw that my lib file was empty. I made a lib file so when I insert new lib folders/files onto my board I would have them saved so I would have to go fetch them. The switch situation was easy I had to find a new switch and I also realized that to switch from data to code mode you have to switch AND unplug and replug in the board. 
 
 
 &nbsp;
