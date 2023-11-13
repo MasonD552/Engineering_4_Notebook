@@ -21,7 +21,7 @@
 * [Landing_Area_Part_2(Plotting)](#Landing_Area_Part_2_Plotting)
 * [Morse_Code_Pt1(Translation)](#Morse_Code_Pt1_Translation)
 * [Morse_Code_Pt2(Transmission)](#Morse_Code_Pt2_Transmission)
-* [Data Pt 1(Storage](#Data_Pt1_Storage)
+* [Data Pt 1(Storage)](#Data_Pt1_Storage)
   
 &nbsp;
 # Circuit Python
