@@ -519,7 +519,7 @@ Construct a chart illustrating time on the X-axis and the tilt status of the Pic
 
 ### Evidence 
 
-![Link to Data Analysis Google Sheet](https://docs.google.com/spreadsheets/d/1ylrBX09e-f8WUV6Asc_nx6c_sdjhclWAiN0MOl-M2ZY/edit?usp=sharing)
+[Link to Data Analysis Google Sheet](https://docs.google.com/spreadsheets/d/1ylrBX09e-f8WUV6Asc_nx6c_sdjhclWAiN0MOl-M2ZY/edit?usp=sharing)
 
 
 ### Reflection
