@@ -521,9 +521,9 @@ Construct a chart illustrating time on the X-axis and the tilt status of the Pic
 
 [Link to Data Analysis Google Sheet](https://docs.google.com/spreadsheets/d/1ylrBX09e-f8WUV6Asc_nx6c_sdjhclWAiN0MOl-M2ZY/edit?usp=sharing)
 
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTE2E6SyzK33knWjsTKGYlb96mEzAAzaLCqcVL6pIy5E3zxwTn1wECxurqkPyP5jJRfy3l8Ete5RECR/pubchart?oid=691265260&amp;format=interactive"></iframe>
+<img width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTE2E6SyzK33knWjsTKGYlb96mEzAAzaLCqcVL6pIy5E3zxwTn1wECxurqkPyP5jJRfy3l8Ete5RECR/pubchart?oid=691265260&amp;format=interactive">
 
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTE2E6SyzK33knWjsTKGYlb96mEzAAzaLCqcVL6pIy5E3zxwTn1wECxurqkPyP5jJRfy3l8Ete5RECR/pubchart?oid=691265260&amp;format=interactive"></iframe>
+<img width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTE2E6SyzK33knWjsTKGYlb96mEzAAzaLCqcVL6pIy5E3zxwTn1wECxurqkPyP5jJRfy3l8Ete5RECR/pubchart?oid=691265260&amp;format=interactive">
 
 ### Reflection
 This assignment was straightforward I had to copy the data from the data.csv file into a Google Sheets document then I had to format it into something way easier to read. I also had to make two charts. One chart shows the X Y and Z acceleration and the other shows when the PICO was tilted. I wanted to figure out how to get the tilt graph to have a step from 0 -> 1 instead of steps by 0.25. So I figured out how to make the step size by 1.
