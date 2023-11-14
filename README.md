@@ -22,6 +22,7 @@
 * [Morse_Code_Pt1(Translation)](#Morse_Code_Pt1_Translation)
 * [Morse_Code_Pt2(Transmission)](#Morse_Code_Pt2_Transmission)
 * [Data Pt 1(Storage)](#Data_Pt1_Storage)
+* [Data Pt 2(Analysis)](#Data_Pt2_Analysis)
   
 &nbsp;
 # Circuit Python
@@ -509,3 +510,20 @@ This assignment was hard, I kept running into a lot of difficulty with my board 
 
 &nbsp;
 
+## Data_Pt2_Analysis
+
+### Assignment Description
+
+Generate a line chart depicting time on the horizontal axis and acceleration on the vertical axis, incorporating X, Y, and Z accelerations on a single plot. Provide clear titles and axis labels, including units.
+Construct a chart illustrating time on the X-axis and the tilt status of the Pico on the Y-axis. Ensure to include informative titles and axis labels, specifying the units.
+
+### Evidence 
+
+![Link to Data Analysis Google Sheet](https://docs.google.com/spreadsheets/d/1ylrBX09e-f8WUV6Asc_nx6c_sdjhclWAiN0MOl-M2ZY/edit?usp=sharing)
+
+
+### Reflection
+This assignment was straightforward I had to copy the data from the data.csv file into a Google Sheets document then I had to format it into something way easier to read. I also had to make two charts. One chart shows the X Y and Z acceleration and the other shows when the PICO was tilted. I wanted to figure out how to get the tilt graph to have a step from 0 -> 1 instead of steps by 0.25. So I figured out how to make the step size by 1.
+
+
+&nbsp;
