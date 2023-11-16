@@ -489,7 +489,7 @@ This was a pretty simple assignment as I have used dictionaries in code before a
 ## Data_Pt1_Storage
 
 ### Assignment Description
-Log data to data.csv file. Switch between Code and Data Modes using GP0. 
+Create code using the crash avoidance code to log data to the data.csv file. Switch between Code and Data Modes using GP0. 
 Records time, XYZ acceleration, and tilt status. LED blinks on data save. Retrieve data on the computer.
 
 ### Evidence 
