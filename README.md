@@ -430,7 +430,7 @@ After displaying the triangle and its area, the program waits for 5 seconds and 
 
 ### Wiring
 
-<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/LA2wiring.jpg"  width="50%" height="20%">
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/LA2wiring.jpg"  width="50%" height="5%">
 
 
 ### Code
