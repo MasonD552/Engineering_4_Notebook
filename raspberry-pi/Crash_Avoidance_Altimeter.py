@@ -34,6 +34,8 @@ display = SSD1306(display_bus, width=128, height=64)
 # Create the display group
 splash = displayio.Group()
 
+time.sleep(10)
+
 # Add title block to display group
 title = "ANGULAR VELOCITY"
 text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
@@ -42,14 +44,13 @@ display.show(splash)
 
 # Store the initial altitude
 initial_altitude = mpl3115a2.altitude
+print(initial_altitude)
 
 # Main loop
 while True:
     # Read acceleration values
     acceleration = mpu.acceleration
     x_acceleration, y_acceleration, z_acceleration = acceleration
-
-    
 
     # Read angular velocity values
     angular_velocity = mpu.gyro
@@ -58,27 +59,24 @@ while True:
     # Read altitude from MPL3115A2 altimeter
     current_altitude = mpl3115a2.altitude
 
-    # Check if the device is more than 3 meters above its starting point
+    # Check if the device is more than 1 meter above its starting point
     altitude_threshold = 1.0
     if current_altitude - initial_altitude > altitude_threshold:
-        # Device is more than 3 meters above the starting point, turn off the warning light
+        # Device is more than 1 meter above the starting point, turn off the warning light
         led.value = False
-        # Check if the sensor is tilted at approximately 90 degrees (adjust threshold as needed)
-        
     else:
         tilt_threshold = 0.45  # Adjust this value based on your setup
         if z_acceleration < -tilt_threshold:
             # Sensor is tilted, turn on the LED warning light
             led.value = True
-            
-        else: 
+        else:
             led.value = False
-
 
     # Update OLED screen with angular velocity values, LED status, and altitude
     led_status = "LED Status: ON" if led.value else "LED Status: OFF"
-    altitude_text = f"Altitude: {current_altitude:.3f} meters, \n Altitude: {initial_altitude:.3f} meters"
+    altitude_text = f"Current Altitude: {current_altitude:.3f} meters\nInitial Altitude: {initial_altitude:.3f} meters"
     angular_velocity_text = f"X: {x_angular_velocity:.3f},\n Y: {y_angular_velocity:.3f},\n Z: {z_angular_velocity:.3f}"
-    text_area.text = altitude_text  + "\n" + led_status + "\n" + angular_velocity_text
+    text_area.text = altitude_text + "\n" + led_status + "\n" + angular_velocity_text
+
     # Add a delay to avoid rapid LED flickering
     time.sleep(0.1)
