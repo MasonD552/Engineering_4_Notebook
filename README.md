@@ -24,6 +24,7 @@
 * [Data Pt 1(Storage)](#Data_Pt1_Storage)
 * [Data Pt 2(Analysis)](#Data_Pt2_Analysis)
 * [Crash Avoidance Pt 4](#Crash_Avoidance_Pt_4)
+* [Data_Pt_3(Altimeter+Storage)](#Data_Pt3_Altimeter)
   
 &nbsp;
 # Circuit Python
@@ -531,3 +532,45 @@ This assignment was straightforward I had to copy the data from the data.csv fil
 
 
 &nbsp;
+## Crash_Avoidance_Pt_4
+
+### Assignment Description
+
+
+### Evidence 
+
+<img src=""  width="80%" height="50%">
+
+### Wiring
+![CrashAvoidance4Wiring]()
+
+### Code
+
+[CrashAvoidance4Code]()
+
+### Reflection
+
+
+&nbsp;
+## Data_Pt3_Altimeter
+
+### Assignment Description
+
+
+### Evidence 
+
+<img src=""  width="80%" height="50%">
+
+### Wiring
+![Data_Pt3_Altimeter_Wiring]()
+
+### Code
+
+[Data_Pt3_Altimeter_Code]()
+
+### Reflection
+
+
+&nbsp;
+
+
