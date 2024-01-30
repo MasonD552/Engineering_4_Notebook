@@ -25,7 +25,7 @@ led.direction = digitalio.Direction.OUTPUT
 led_2_pin = board.GP16  # LED PIN = GP16
 led_2 = digitalio.DigitalInOut(led_2_pin)
 led_2.direction = digitalio.Direction.OUTPUT
-time.sleep
+time.sleep(5)
 # Function to check if the Pico is tilted
 def is_tilted(acceleration, tilt_threshold):
     x_acceleration, y_acceleration, z_acceleration = acceleration
@@ -46,28 +46,22 @@ with open("/data.csv", "a") as datalog:
         
         # Read altitude from MPL3115A2 altimeter
         current_altitude = mpl3115a2.altitude
-        Check if the Pico is tilted
-        tilt_threshold = 0.45  # Adjust this value based on your setup
-        tilt = 1 if is_tilted(acceleration, tilt_threshold) else 0
-
-        # if z_acceleration < -tilt_threshold:
-        #     # tilted, turn on the LED warning light
-        #     led_2.value = True
-        # else:
-        #     # not tilted, turn off the LED
-        #     led_2.value = False
         # Check if the device is more than 1 meter above its starting point
         altitude_threshold = 1.0
         if current_altitude - initial_altitude > altitude_threshold:
             # Device is more than 1 meter above the starting point, turn off the warning light
             led_2.value = False
         else:
+            #Check if the Pico is tilted
             tilt_threshold = 0.45  # Adjust this value based on your setup
+            tilt = 1 if is_tilted(acceleration, tilt_threshold) and current_altitude - initial_altitude < altitude_threshold else 0
+            
             if z_acceleration < -tilt_threshold:
                 # Sensor is tilted, turn on the LED warning light
                 led_2.value = True
             else:
                 led_2.value = False
+                
         # Prepare the data as a CSV string
         data_string = f"{time_elapsed:.2f},{x_acceleration:.3f},{y_acceleration:.3f},{z_acceleration:.3f},{initial_altitude:.3f},{current_altitude:.3f},{tilt}\n"
 
