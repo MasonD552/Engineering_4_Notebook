@@ -550,7 +550,7 @@ This assignment was straightforward I had to copy the data from the data.csv fil
 
 ### Code
 
-[CrashAvoidance4Code]()
+[CrashAvoidance4Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_Altimeter.py)
 
 ### Reflection
 
@@ -563,14 +563,14 @@ This assignment was straightforward I had to copy the data from the data.csv fil
 
 ### Evidence 
 
-<img src=""  width="80%" height="50%">
+<img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/IMG_2819-ezgif.com-optimize.gif"  width="80%" height="50%">
 
 ### Wiring
 ![Data_Pt3_Altimeter_Wiring]()
 
 ### Code
 
-[Data_Pt3_Altimeter_Code]()
+[Data_Pt3_Altimeter_Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Pt3_Storage%2BAltimeter.py)
 
 ### Reflection
 
