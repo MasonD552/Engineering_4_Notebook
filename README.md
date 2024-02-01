@@ -546,7 +546,7 @@ This assignment was straightforward I had to copy the data from the data.csv fil
 <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/IMG_2821-ezgif.com-video-to-gif-converter.gif"  width="80%" height="50%">
 
 ### Wiring
-![CrashAvoidance4Wiring]()
+![CrashAvoidance4Wiring](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/WIN_20240130_13_57_58_Pro.jpg)
 
 ### Code
 
