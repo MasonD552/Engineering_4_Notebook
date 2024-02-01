@@ -566,7 +566,7 @@ This assignment was straightforward I had to copy the data from the data.csv fil
 <img src="https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/IMG_2819-ezgif.com-optimize.gif"  width="80%" height="50%">
 
 ### Wiring
-![Data_Pt3_Altimeter_Wiring]()
+![Data_Pt3_Altimeter_Wiring](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/images/Untitled-2024-01-30-1400.png)
 
 ### Code
 
