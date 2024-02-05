@@ -539,7 +539,11 @@ This assignment was straightforward I had to copy the data from the data.csv fil
 ## Crash_Avoidance_Pt_4
 
 ### Assignment Description
-
+This reads acceleration values from an MPU6050 accelerometer and an MPL3115A2 altimeter connected to a Raspberry Pi Pico.
+The acceleration values are rounded to three decimal places and continuously printed to the serial monitor if the accelerometer is rotated 90 degrees then a red LED will turn on. 
+Connect a battery to make it so that the board runs wirelessly. 
+Print angular velocity values to OLED.
+Also, print the initial altitude and current altitude to OLED.
 
 ### Evidence 
 
@@ -553,13 +557,14 @@ This assignment was straightforward I had to copy the data from the data.csv fil
 [CrashAvoidance4Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_Altimeter.py)
 
 ### Reflection
-
+In this assignment, I got the MPU6050 and the MPL3115A2 to print data to the OLED. When the MPU6050 is tilted the LED should turn. If the MPU6050 is tilted above the tilt threshold then the LED will not turn on. This was kind of hard to achieve because the altimeter was not giving me an accurate initial altitude. So my solution was to let it initialize by giving it a 10 delay. This solution made it more accurate.
 
 &nbsp;
 ## Data_Pt3_Altimeter
 
 ### Assignment Description
-
+Create code using the crash avoidance code to log data to the data.csv file. Switch between Code and Data Modes using GP0. 
+Records time, XYZ acceleration, and tilt status. LED blinks on data save. Retrieve data on the computer. For the altimeter it adds another sensor that measures altitude, it will also log into a data.csv file.
 
 ### Evidence 
 
@@ -573,7 +578,9 @@ This assignment was straightforward I had to copy the data from the data.csv fil
 [Data_Pt3_Altimeter_Code](https://github.com/MasonD552/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Pt3_Storage%2BAltimeter.py)
 
 ### Reflection
-
+This assignment was hard, I kept running into a lot of difficulty with my board completely resetting itself, and I also couldn't get my switch to work. I eventually got everything to work. For the board factory resetting itself, I found out that when I had the battery switched on and I went to plug the board into the computer I would notice the code.py file said "Hello World" Then I checked and saw that my lib file was empty. I eventually realized I should just get a new board. That worked. ALSO **Let the board initialize for a couple of seconds** so that it provides the most accurate initial altitude. Lastly, the altimeter would sometimes not produce an accurate reading. As long as the altitude increases when the board increases and decreases when the board decreases the exact values don't matter. 
+**To avoid in the future: DON'T HAVE BATTERY ON OR PLUGGED IN WHEN PLUGGED INTO COMPUTER**
+**If the Board keeps resetting get a new board most likely your board can't store any more data.**
 
 &nbsp;
 
